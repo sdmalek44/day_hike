@@ -7,6 +7,8 @@ describe 'when user visits /trip/:id ' do
     @trip2 = Trip.create!(name: 'yayayaya', date: Date.new(2001, 2, 3))
     @trail1 = @trip1.trails.create!(length: 100, name: 'bobby', address: '111 tops st')
     @trail2 = @trip1.trails.create!(length: 200, name: 'stopy', address: '333 tops st')
+    @trip_trails = TripTrail.create!(trip_id: @trip2.id, trail_id: @trail1.id)
+
   end
   it 'can see all trails in trip' do
     visit trip_path(@trip1)

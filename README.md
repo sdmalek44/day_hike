@@ -60,14 +60,14 @@ As a visitor,
 when I visit a hiking trip's page,
 I see the shortest hiking distance
 from all trails on that hiking trip
-``` --> 
+``` -->
 
-```
+<!-- ```
 As a visitor,
 when I visit a hiking trip's page,
 I can click on the name of a trail
 to see a show page for that specific trail.
-```
+``` -->
 
 ### Trail Show page
 
