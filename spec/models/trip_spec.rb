@@ -11,4 +11,13 @@ describe Trip, type: :model do
   it 'can get total hiking distance' do
     expect(@trip1.total_hiking_distance).to eq(300)
   end
+  it 'can get average_hiking_distance' do
+    expect(@trip1.average_hiking_distance).to eq(150)
+  end
+  it 'can get shortest hiking distance' do
+    expect(@trip1.shortest_hiking_distance).to eq(100)
+  end
+  it 'can get longest hiking distance' do
+      expect(@trip1.longest_hiking_distance).to eq(200)
+  end
 end

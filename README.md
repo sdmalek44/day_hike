@@ -40,12 +40,6 @@ I see a list of trails included in the trip,
 I see the name, address, and length for each trail.
 ``` -->
 
-```
-As a visitor,
-when I visit a hiking trip's page,
-I see the total hiking distance
-of all trails on that hiking trip
-```
 
 ```
 As a visitor,

@@ -18,6 +18,9 @@ describe 'when user visits /trip/:id ' do
     expect(page).to have_content(@trail2.address)
     expect(page).to have_content(@trail2.name)
     expect(page).to have_content(@trip1.total_hiking_distance)
+    expect(page).to have_content(@trip1.average_hiking_distance)
+    expect(page).to have_content(@trip1.shortest_hiking_distance)
+    expect(page).to have_content(@trip1.longest_hiking_distance)
 
   end
 end
