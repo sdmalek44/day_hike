@@ -18,12 +18,12 @@ The intention of this application if for users to coordinate which trails they w
 
 
 ### Hiking Trip Index page
-```
+<!-- ```
 As a visitor,
 when I visit the hiking trips index page,
 I see a list of all hiking trip names in
 the database.
-```
+``` -->
 
 ```
 As a visitor,
