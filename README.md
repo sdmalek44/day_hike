@@ -33,12 +33,12 @@ I see a unique page for that hiking trip.
 ``` -->
 
 ### Hiking Trip Show page
-```
+<!-- ```
 As a visitor,
 when I visit a hiking trip's page,
 I see a list of trails included in the trip,
 I see the name, address, and length for each trail.
-```
+``` -->
 
 ```
 As a visitor,
