@@ -77,10 +77,10 @@ when I visit a trail's page,
 I see the name, address, and total length of
 every hiking trip that includes this trail
 ```
-
+<!-- 
 ```
 As a visitor,
 when I visit a trail's page,
 I see the total number of hiking trips where this trail
 was included
-```
+``` -->
