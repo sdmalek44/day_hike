@@ -23,4 +23,11 @@ describe 'when user visits /trip/:id ' do
     expect(page).to have_content(@trip1.longest_hiking_distance)
 
   end
+  it 'can click to go to trail' do
+    visit trip_path(@trip1)
+
+    click_link @trail1.name
+
+    expect(current_path).to eq(trail_path(@trail1))
+  end
 end

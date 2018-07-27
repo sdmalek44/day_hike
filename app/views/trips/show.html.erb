@@ -4,7 +4,7 @@
 <%= @trip.shortest_hiking_distance %>
 <%= @trip.longest_hiking_distance %>
 <% @trip.trails.each do |trail| %>
-<%= trail.name %>
+<%= link_to trail.name, trail_path(trail) %>
 <%= trail.address %>
 <%= trail.length %>
 <% end %>
